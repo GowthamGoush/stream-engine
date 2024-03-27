@@ -9,8 +9,10 @@ import Header from "./pages/components/header";
 function App() {
   return (
     <Provider store={appStore}>
-      <Header />
-      <RouterProvider router={routes} />
+      <main className="h-screen">
+        <Header />
+        <RouterProvider router={routes} />
+      </main>
     </Provider>
   );
 }

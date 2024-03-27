@@ -5,10 +5,10 @@ import Sidebar from "../pages/components/sidebar/sidebar";
 
 const BasicLayout = () => {
   return (
-    <main className="h-screen">
+    <section className="flex ">
       <Sidebar />
       <Outlet />
-    </main>
+    </section>
   );
 };
 
