@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 
 import logo from "../../../assets/yt_logo.png";
@@ -23,9 +22,9 @@ const NavigationMenu = () => {
           className="p-1.5 h-10"
         />
       </button>
-      <Link to={"/"}>
+      <a href="/">
         <img src={logo} alt="logo" className="p-2.5 h-10" />
-      </Link>
+      </a>
     </div>
   );
 };
