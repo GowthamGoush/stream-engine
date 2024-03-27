@@ -1,15 +1,20 @@
 import React from "react";
+import { useSelector } from "react-redux";
+
 import SectionContainer from "./section_container";
+import { MENU_ITEMS } from "./constants";
 
 const Sidebar = () => {
+  const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
+
+  if (!isMenuOpen) return null;
+
   return (
-    <aside className="flex flex-col w-56 h-full px-4 items-stretch divide-y">
-      <SectionContainer items={["Home", "Shorts", "Subscription"]} />
-      <SectionContainer
-        items={["Trending", "Shoping", "Music", "Live", "Gaming"]}
-      />
-      <SectionContainer items={["Settings", "Report history", "Help"]} />
-    </aside>
+    <nav className="flex flex-col w-56 h-full px-4 items-stretch divide-y">
+      {MENU_ITEMS.map((menuSection) => (
+        <SectionContainer section={menuSection} />
+      ))}
+    </nav>
   );
 };
 
