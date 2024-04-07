@@ -2,7 +2,7 @@ import { RouterProvider } from "react-router-dom";
 import { Provider } from "react-redux";
 
 import "./App.css";
-import routes from "./routes";
+import routes from "./routes/index";
 import appStore from "./models/appStore";
 import Header from "./pages/components/header";
 
