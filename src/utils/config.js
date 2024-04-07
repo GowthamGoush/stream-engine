@@ -6,6 +6,11 @@ const configList = {
     HOST: "http://localhost:3000",
     YOUTUBE_API_KEY: REACT_APP_YOUTUBE_API_KEY,
   },
+  production: {
+    CURRENT_ENV: NODE_ENV,
+    HOST: "https://streamengine.netlify.app",
+    YOUTUBE_API_KEY: REACT_APP_YOUTUBE_API_KEY,
+  },
 };
 
 export default configList[NODE_ENV];
