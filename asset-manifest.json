@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.132b30da.css",
-    "main.js": "/static/js/main.a774f0fc.js",
-    "static/js/453.cb9c5c13.chunk.js": "/static/js/453.cb9c5c13.chunk.js",
-    "static/media/yt_logo.png": "/static/media/yt_logo.a676ea31f6d4cf08b9d2.png",
-    "index.html": "/index.html",
-    "main.132b30da.css.map": "/static/css/main.132b30da.css.map",
-    "main.a774f0fc.js.map": "/static/js/main.a774f0fc.js.map",
-    "453.cb9c5c13.chunk.js.map": "/static/js/453.cb9c5c13.chunk.js.map"
+    "main.css": "/stream-engine/static/css/main.132b30da.css",
+    "main.js": "/stream-engine/static/js/main.a47eeec9.js",
+    "static/js/453.cb9c5c13.chunk.js": "/stream-engine/static/js/453.cb9c5c13.chunk.js",
+    "static/media/yt_logo.png": "/stream-engine/static/media/yt_logo.a676ea31f6d4cf08b9d2.png",
+    "index.html": "/stream-engine/index.html",
+    "main.132b30da.css.map": "/stream-engine/static/css/main.132b30da.css.map",
+    "main.a47eeec9.js.map": "/stream-engine/static/js/main.a47eeec9.js.map",
+    "453.cb9c5c13.chunk.js.map": "/stream-engine/static/js/453.cb9c5c13.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.132b30da.css",
-    "static/js/main.a774f0fc.js"
+    "static/js/main.a47eeec9.js"
   ]
 }
