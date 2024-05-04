@@ -16,7 +16,7 @@ const Contents = () => {
   }, []);
 
   return (
-    <section className="h-full w-full">
+    <section className="h-full w-full content-area mt-14">
       <VideoContainer info={videos} />
     </section>
   );

@@ -4,7 +4,7 @@ import NavigationMenu from "./navigation_menu";
 
 const Header = () => {
   return (
-    <header className="w-full flex justify-between items-center px-4 h-14 ">
+    <header className="fixed top-0 left-0 w-full flex justify-between items-center px-4 h-14 bg-white z-[1000]">
       <NavigationMenu />
       <div className="flex basis-2/5 items-center h-10">
         <div className="flex items-center w-full h-10 pl-4 pr-1 border-y border-l rounded-l-full">

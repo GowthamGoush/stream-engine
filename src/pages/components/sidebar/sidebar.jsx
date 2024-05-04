@@ -10,7 +10,7 @@ const Sidebar = () => {
   if (!isMenuOpen) return null;
 
   return (
-    <nav className="flex flex-col w-56 h-full px-4 items-stretch divide-y">
+    <nav className="flex flex-col w-56 h-full mt-14 px-4 items-stretch divide-y">
       {MENU_ITEMS.map((menuSection) => (
         <SectionContainer section={menuSection} />
       ))}

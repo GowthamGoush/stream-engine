@@ -5,7 +5,7 @@ import Sidebar from "../pages/components/sidebar/sidebar";
 
 const BasicLayout = () => {
   return (
-    <section className="flex ">
+    <section className="flex">
       <Sidebar />
       <Outlet />
     </section>
