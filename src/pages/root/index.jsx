@@ -4,7 +4,7 @@ import VideoContainer from "./video_container";
 import { fetchPopularVideoList } from "../../fetchers/video";
 
 const Contents = () => {
-  const [videos, setVideos] = useState();
+  const [videos, setVideos] = useState([]);
 
   const fetchVideos = async () => {
     const { data, ok } = await fetchPopularVideoList();
@@ -16,9 +16,9 @@ const Contents = () => {
   }, []);
 
   return (
-    <section className="h-full w-full content-area mt-14">
+    <div className="h-full w-full content-area mt-14">
       <VideoContainer info={videos} />
-    </section>
+    </div>
   );
 };
 
