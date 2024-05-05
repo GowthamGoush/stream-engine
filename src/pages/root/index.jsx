@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import VideoContainer from "./video_container";
-import { fetchPopularVideoList } from "../../fetchers/video";
+import { fetchPopularVideoList } from "../../fetchers/root";
 
 const Contents = () => {
   const [videos, setVideos] = useState([]);
